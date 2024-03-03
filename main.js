@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiKey = '6a567c3';//API KEY
+    const apiKey = 'e6038633';//API KEY
     const searchInput = document.getElementById('search-input');
     const searchResultsContainer = document.getElementById('search-results');
     const favoritesLink = document.getElementById('favorites-link');
