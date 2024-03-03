@@ -1,0 +1,57 @@
+/* Reset default styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #020807;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Home page specific styles */
+#home-page {
+    text-align: center;
+}
+
+/* Search input styles */
+#search-input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+/* Styles for search results */
+.search-result,
+.favorite-movie {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Button styles */
+.favorite-btn,
+.remove-btn {
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Button hover styles */
+.favorite-btn:hover,
+.remove-btn:hover {
+    background-color: #020509;
+}
