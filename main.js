@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to fetch search results from OMDB API
     const fetchSearchResults = async (query) => {
         try {
-            const response = await fetch(`http://www.omdbapi.com/?apikey=${apiKey}&s=${query}`);
+            const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&s=${query}`);
             const data = await response.json();
             return data.Search || [];
         } catch (error) {
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to show movie details on a separate page
     const showMovieDetails = async (id) => {
         try {
-            const response = await fetch(`http://www.omdbapi.com/?apikey=${apiKey}&i=${id}`);
+            const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&i=${id}`);
             const movieData = await response.json();
 
             moviePage.innerHTML = `
